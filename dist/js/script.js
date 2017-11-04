@@ -1,0 +1,1 @@
+!function(){var t=$(".tile--content"),i=$("#myModal").find("img");t.each(function(){var t=$(this),a=t.find(".modal-tile");t.click(function(){var e=$(a).attr("data-src"),n=t.attr("data-id");if(e)var c="assets/images/"+e+".jpg";console.log(n+" option has been clicked"),$(i).attr("src",c)})}),(new TimelineLite).staggerFrom($(".tile"),1,{opacity:0,left:"+=50"},.2)}();

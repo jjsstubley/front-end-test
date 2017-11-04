@@ -1,0 +1,38 @@
+.tile {
+	padding: 5px !important;
+
+	&--content {
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+	&--img {
+		overflow: hidden;
+		cursor: pointer;
+		opacity: 0.5;
+
+		img {
+			width: 100%;
+			transition: all .5s ease-out;
+		}
+
+		&:first-child {
+			margin-bottom: 10px;
+		}
+
+		&:hover {
+			opacity: 1;
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	&--text {
+		padding: 0 20px;
+		h2, p {
+			color: #f6f6f8;
+		}
+	}	
+}
